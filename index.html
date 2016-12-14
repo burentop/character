@@ -5,13 +5,13 @@
     <link href="css/styles.css" rel="stylesheet" type="text/css" media="all" />
     <script src="js/jquery-3.1.1.js"></script>
     <script src="js/scripts.js"></script>
-    <title>Political Bent</title>
+    <title>Find Your Character</title>
   </head>
   <body>
     <div class="container">
       <div class="jumbotron">
-        <h1>Political Bent</h1>
-        <h2>Answer simple questions to give you complex answers:</h2>
+        <h1>Find Your Character</h1>
+        <h2>The answers to these questions could reveal your true calling:</h2>
       </div>
       <div class="profile">
         <form>
@@ -20,29 +20,28 @@
             <input id="name" class="form-control" type="text" />
             <span id="name-warning" class="help-block"></span>
           </div>
-          <h4>Your gender:</h4>
-          <select class="form-control input-gender" id="gender">
-            <option value="0">Male</option>
-            <option value="1">Female</option>
+          <h4>In new social situations (meeting people or groups of people for the first time), do you usually do more:</h4>
+          <select class="form-control" id="talking">
+            <option value="0">Talking</option>
+            <option value="1">Listening</option>
           </select>
           <p></p>
-          <h4>Your age:</h4>
-          <select class="form-control" id="age">
-            <option value="17">under 18</option>
-            <option value="23">18 - 25</option>
-            <option value="30">26 - 39</option>
-            <option value="41">40+</option>
+          <h4>When it comes to reading, do you:</h4>
+          <select class="form-control" id="reading">
+            <option value="0">Enjoy reading various kinds of books on subjects you find interesting.</option>
+            <option value="1">Tolerate reading if you have to but prefer learning other ways.</option>
           </select>
           <p></p>
-          <h4>Your favorite Supreme Court justice:</h4>
-          <select class="form-control" id="justice">
-            <option value="2">Anthony Kennedy</option>
-            <option value="1">Clarence Thomas</option>
-            <option value="4">Ruth Bader Ginsburg</option>
-            <option value="3">Stephen Breyer</option>
-            <option value="0">Samuel Alito</option>
-            <option value="5">Sonia Sotomayor</option>
-            <option value="6">Elena Kagan</option>
+          <h4>When a friend comes to you with a personal problem, are you better at:</h4>
+          <select class="form-control" id="problem">
+            <option value="0">Comforting them</option>
+            <option value="1">Helping them logically solve their problem</option>
+          </select>
+          <p></p>
+          <h4>Are you naturally better at ...</h4>
+          <select class="form-control" id="better">
+            <option value="0">Planning ahead and sticking to your plan.</option>
+            <option value="1">Improvising based on changing circumstances.</option>
           </select>
           <p></p>
           <button type="submit" class="btn">Submit</button>
@@ -50,11 +49,11 @@
       </div>
       <p></p>
       <div class="well results">
-        <h3>Your political leaning:</h3>
+        <h3>Your character:</h3>
         <p></p>
         <div>
-          <h3 id="political-name"></h3>
-          <p id="political-reason"></p>
+          <h3 id="character-name"></h3>
+          <p id="character-reason"></p>
         </div>
       </div>
     </div>
