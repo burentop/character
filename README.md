@@ -1,4 +1,4 @@
-# _political_
+# _character_
 
 #### _Simple web page to practice Bootstrap forms, 12.14.2016_
 
@@ -7,10 +7,6 @@
 ## Description
 
 _This is a very simple website used to reinforce what I've leanred about CSS forms._
-
-## View the Web site
-
-_http://burentop.github.io/political_
 
 ## Setup/Installation Requirements
 
